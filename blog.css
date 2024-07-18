@@ -1,0 +1,184 @@
+nav {
+    background: #c054ff;
+    background: -moz-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: -webkit-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+    padding: 15px 30px;
+} 
+.nav2
+{
+    padding: 10px 10px; 
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    list-style: none;
+}
+.hbtn {
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+overflow: hidden;
+padding: 12px 35px;
+text-align: center;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 5px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+white-space: nowrap;
+z-index: 0;
+} 
+.hbtn1 {
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+overflow: hidden;
+padding: 13px 35px;
+text-align: center;
+border-radius: 5px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+z-index: 0;
+} 
+
+.hbtn1 i {
+padding-right: 8px;
+} 
+
+.hbtn i {
+padding-right: 8px;
+} 
+
+
+.hb-fill-right::before {
+position: absolute;
+content: "";
+background:#FF9F67;
+transition-duration: 0.3s;
+z-index: -1;
+inset: 0px auto auto 0px;
+width: 0%;
+height: 100%;
+opacity: 1;
+} 
+.hb-fill-right:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    } 
+    
+    
+    .hb-fill-right:hover {
+    color: white;
+    background: rgb(255, 255, 255);
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+    } 
+    
+    
+    .hb-fill-left::before {
+    position: absolute;
+    content: "";
+    background:#FF9F67;
+    transition-duration: 0.8s;
+    z-index: -1;
+    inset: 0px 0px auto auto;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    } 
+    
+    
+    .hb-fill-left:hover::before {
+    width: 0%;
+    height: 100%;
+    opacity: 1;
+    } 
+    
+    
+    .hb-fill-left:hover {
+    color: white;
+    background:#c054ff;
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+    } 
+    .banner
+{
+    
+    background: -moz-linear-gradient(bottom, #c054ff 0%, #5274ff 100%);
+    background: -webkit-linear-gradient(bottom, #c054ff 0%, #5274ff 100%);
+    background: linear-gradient(bottom, #c054ff 0%, #5274ff 100%);
+}
+.date
+{
+    position: absolute;
+     bottom: -9%; 
+     left: 30px;
+      background-color: #C86FFF; 
+      padding: 10px 25px;
+       border-radius: 5px; 
+       font-size: 20px; 
+       color: white;
+       transition: all 0.2s;
+       cursor: pointer;
+       font-weight: bold;
+}
+.date:hover
+{
+    background-color: transparent;
+    color: #c054ff;
+}
+.card-text:hover
+{
+color: #c054ff;
+cursor: pointer;
+}
+.serch-input-vice
+{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.serch-input-vice input
+{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(195, 195, 195);
+}
+.search-icon
+{
+    background-color: #c054ff;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 11px 20px;
+    color: white;
+}
+.serch-input-btn
+{
+    background-color: transparent;
+    border: 1px solid #c054ff;
+    padding: 10px;
+    color: #c054ff;
+    text-align: center;
+    transition: all 0.3s;
+}
+.serch-input-btn:hover
+{
+    background-color: #c054ff;
+    color: white;
+}
+.categry-name:hover{
+    color: #c054ff;
+    cursor: pointer;
+}
+.cloud-btn
+{
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    color: #888888;
+    font-size: 13px;
+    padding: 4px 20px;
+}

@@ -1,0 +1,321 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.video-div
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.video-div video
+{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+.back-img
+{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-form
+{
+  z-index: 99;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 30%;
+  padding: 20px 30px 40px 30px;
+  border-radius: 10px;
+}
+.logo-login
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    /* border: 15px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo-login a img
+{
+    width: 55px;
+}
+.containt-wrapper
+{
+    margin-top: 15%;
+    font-family: "Josefin Sans", sans-serif;
+}
+.containt-wrapper h2
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.containt-wrapper label
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.containt-wrapper input
+{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-bottom: 2px solid white;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    color: white;
+}
+.containt-wrapper input::placeholder
+{
+    color: white;
+}.containt-wrapper .btn1
+{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.forget
+{
+    display: block;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 5px;
+}
+.registration
+{
+    display: block;
+    margin-bottom: 20px;
+    color: white; 
+}
+.forget:hover,.registration:hover
+{
+    color: white;
+}
+
+@media(min-width:0px) and (max-width:575px)
+{
+    .login-form
+{
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  width: 95%;
+}
+.logo-login
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    /* border: 15px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.containt-wrapper input
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper input::placeholder
+{
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper .btn1
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.forget
+{
+    color: rgb(0, 0, 0);
+}
+.registration
+{
+    color: rgb(0, 0, 0); 
+}
+.forget:hover,.registration:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+}
+
+
+@media(min-width:576px) and (max-width:768px)
+{
+    .login-form
+{
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  width: 60%;
+}
+.logo-login
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    /* border: 15px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.containt-wrapper input
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper input::placeholder
+{
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper .btn1
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.forget
+{
+    color: rgb(0, 0, 0);
+}
+.registration
+{
+    color: rgb(0, 0, 0); 
+}
+.forget:hover,.registration:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+}
+
+@media(min-width:769px) and (max-width:992px)
+{
+    .login-form
+{
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  width: 50%;
+}
+.logo-login
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    /* border: 15px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.containt-wrapper input
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper input::placeholder
+{
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper .btn1
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.forget
+{
+    color: rgb(0, 0, 0);
+}
+.registration
+{
+    color: rgb(0, 0, 0); 
+}
+.forget:hover,.registration:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+}
+@media(min-width:993px) and (max-width:1200px)
+{
+    .login-form
+{
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  width: 40%;
+}
+.logo-login
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    /* border: 15px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.containt-wrapper input
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper input::placeholder
+{
+    color: rgb(0, 0, 0);
+}
+.containt-wrapper .btn1
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.forget
+{
+    color: rgb(0, 0, 0);
+}
+.registration
+{
+    color: rgb(0, 0, 0); 
+}
+.forget:hover,.registration:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+}
